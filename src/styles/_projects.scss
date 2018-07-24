@@ -29,6 +29,26 @@
   }
 }
 
+.user-photo {
+  margin: 60px auto;
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  h5 {
+    margin: 0;
+  }
+  li {
+    color: $main;
+    font-size: 1.1rem;
+  }
+  p {
+    margin-right: 5px;
+  }
+}
+
+
 .contents {
   @media only screen and (min-width: $cut) {
     margin-left: 0;
