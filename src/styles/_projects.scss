@@ -66,13 +66,14 @@
 }
 .images-center {
   @media only screen and (min-width: $cut) {
-    float: center;
-    width: 5%;
+    text-align: center;
+    float: left;
+    width: 20px;
     margin: 40
   }
   img {
     @media only screen and (min-width: $cut) {
-      float: center;
+      float: left;
     }
   }
 }
