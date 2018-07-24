@@ -29,25 +29,6 @@
   }
 }
 
-.user-photo {
-  margin: 20px auto;
-  img {
-    max-width: 40%;
-    height: auto;
-    border-radius: 5px;
-  }
-  h5 {
-    margin: 0;
-  }
-  li {
-    color: $main;
-    font-size: 1.1rem;
-  }
-  p {
-    margin-right: 5px;
-  }
-}
-
 
 .contents {
   @media only screen and (min-width: $cut) {
@@ -86,7 +67,7 @@
 .images-center {
   @media only screen and (min-width: $cut) {
     float: center;
-    width: 100%;
+    width: 5%;
     margin: 40
   }
   img {
