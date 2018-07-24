@@ -11,7 +11,7 @@
 }
 
 .user-projects {
-  margin: 90px auto;
+  margin: 20px auto;
   img {
     max-width: 100%;
     height: auto;
@@ -69,8 +69,8 @@
   @media only screen and (min-width: $cut) {
     text-align: center;
     float: left;
-    width: 20px;
-    margin: 40
+    width: 20%;
+    margin: 90px;
   }
   img {
     @media only screen and (min-width: $cut) {
