@@ -63,9 +63,9 @@
     width: 48%;
   }
 }
-.images-right {
+.images-center {
   @media only screen and (min-width: $cut) {
-    float: right;
+    float: center;
     width: 48%;
   }
   img {
