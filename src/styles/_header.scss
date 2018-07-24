@@ -89,29 +89,14 @@
   }
 }
 
-
-.header-photo {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  .img{
-    text-align: right;
-    
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 50%;
-    border: 2px solid #FFF;
-    
-    @media only screen and (min-width:$cut) {
-      width: 35px;
-      height: 35px;
-      font-size: 35px;
-    }
-  }
+ .photo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .down {
   color: #FFF;
